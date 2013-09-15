@@ -1721,7 +1721,7 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="VALUE" x="6.7056" y="2.667" size="2.0828" layer="27" ratio="10" rot="SR0"/>
 </element>
 <element name="R1" library="rcl" package="R0603" value="750R" x="6.35" y="8.636" smashed="yes" rot="R90">
-<attribute name="NAME" x="6.3246" y="7.239" size="0.8128" layer="25" rot="R180"/>
+<attribute name="NAME" x="6.1722" y="7.5438" size="0.8128" layer="25" rot="R180"/>
 <attribute name="VALUE" x="8.255" y="8.001" size="0.8128" layer="27" rot="R90"/>
 </element>
 <element name="R2" library="rcl" package="R0603" value="750R" x="8.89" y="9.5504" smashed="yes">
@@ -1753,7 +1753,10 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="NAME" x="14.6558" y="3.7846" size="0.8128" layer="25" rot="R180"/>
 <attribute name="VALUE" x="12.827" y="6.477" size="0.8128" layer="27" rot="R180"/>
 </element>
-<element name="X2" library="OMAT_IC" package="MPT0.5/4-2.54" value="MPT0.5/4-2.54" x="11.43" y="13.716" rot="R180"/>
+<element name="X2" library="OMAT_IC" package="MPT0.5/4-2.54" value="MPT0.5/4-2.54" x="11.43" y="13.716" smashed="yes" rot="R180">
+<attribute name="NAME" x="13.8684" y="10.2616" size="0.8128" layer="25" rot="R180"/>
+<attribute name="VALUE" x="12.954" y="11.684" size="0.8128" layer="27" rot="R180"/>
+</element>
 </elements>
 <signals>
 <signal name="SCL">
